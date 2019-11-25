@@ -1,0 +1,28 @@
+config:
+  int64: 9223372036854775807
+  int64s: [9223372036854775805,9223372036854775806,9223372036854775807]
+  int64s2: [1,2,3]
+  int64map:
+    a: 9223372036854775805
+    b: 9223372036854775806
+    c: 9223372036854775807
+  int64map2: { a: 1, b: 2, c: 3}
+  int: 1
+  ints:
+    - 1
+    - 2
+    - 3
+  intmap:
+    a: 1
+    b: 2
+    c: 3
+  float64: 1.0
+  float64s: [1.0, 1.1, 1.2]
+  float64map: {a: 1.0, b: 1.1, c: 1.2}
+  string: foo
+  strings: [foo, bar]
+  stringmap: {foo: foo, bar: bar}
+  true: true
+  false: false
+  bools: [true, false]
+  boolmap: {true: true, false: false}
